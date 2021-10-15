@@ -1,0 +1,130 @@
+---
+- name: the parking lot list is displayed
+  uid: 9da49bff-46b3-4351-aacd-9a1995650af4
+  parameters:
+  - name: __datatable
+  body_hash: f9e1473ada0bc46fe8072efe410e1ac4
+- name: '"parking_lot" is clicked'
+  uid: 96399adb-0acd-401f-952a-b7c0766c376f
+  parameters:
+  - name: parking_lot
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"parking_lot" is selected as the parking lot'
+  uid: ed557035-c38d-4949-a4c5-bee3fcae5789
+  parameters:
+  - name: parking_lot
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Parking lot list is displayed
+  uid: 0f74879e-9b90-46a0-a271-ff38ebfacbb9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a user selected an "entry_date"
+  uid: a32fdd1d-50dc-4ae4-b551-fabf248a71d2
+  parameters:
+  - name: entry_date
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: entry time is 1:00 PM
+  uid: 10670f73-7b20-4f77-89d3-f597aa1597a6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: leaving date is 10/08/2021
+  uid: cce0b8b6-ab92-4f32-ad10-a5e22667169b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: leaving time is 5:00 PM
+  uid: 798fa6d6-327b-4630-9c97-e7fd7c864830
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user clicks calculate
+  uid: da8cfffa-e30f-405a-ac3b-c11142acb421
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an estimated parking cost is calculated
+  uid: 8c1f4caa-4515-448e-a48d-33322a23b9a8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an error should be displayed
+  uid: 18ce5f98-0cd3-44fe-a5e7-8f6ba80ec25e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: chose "p1"
+  uid: 712b2e7a-d55c-40ee-987e-99bf58fa5486
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: entry date is 10/08/2021
+  uid: d4eb5486-53bb-4e44-972f-76a48f63e008
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an error message is displayed
+  uid: 526a71ad-a709-4f4f-973a-d6a1f67abb8b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a user selected a "leaving_date"
+  uid: 8bd7f6f1-5c26-4039-837d-6c112af69827
+  parameters:
+  - name: leaving_date
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a users selects Valet Parking
+  uid: ad52d48e-31df-4f88-8852-023ffc0dfc12
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enters an antry date "entry_date"
+  uid: 035b6f52-37e7-460c-a5a2-ae64c11e12b3
+  parameters:
+  - name: entry_date
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enters an entry date "entry_date"
+  uid: 013cbb1a-8384-4bc0-a040-cd43fca731db
+  parameters:
+  - name: entry_date
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enters an entry time "entry_time"
+  uid: bb4c4ac5-84e5-4a25-b141-9467673cef74
+  parameters:
+  - name: entry_time
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: selects "entry_am_pm"
+  uid: f8789b62-7395-45aa-be99-4c80596ff65d
+  parameters:
+  - name: entry_am_pm
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enters a leaving date "leaving_date"
+  uid: 386d0ee3-a85b-4ec7-9f5c-5069ee6c0900
+  parameters:
+  - name: leaving_date
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enters a leaving time "leaving_time"
+  uid: 6250faa0-7d2e-4c48-8845-3c236da74a02
+  parameters:
+  - name: leaving_time
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: users clicks calculate
+  uid: 7bad0cc4-51a7-4e8b-a6f3-12fd8a0d6896
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the total parking fee should be "cost"
+  uid: 59c24926-f0a0-45a9-8657-ee29a474f38c
+  parameters:
+  - name: cost
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a users selects Short-Term Parking
+  uid: e350f17b-7273-4571-a493-d61048a8ab79
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a users selects Economy Parking
+  uid: 815665ac-7e53-455e-b806-ca23cb5aed5e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a users selects Long-Term Garage Parking
+  uid: 9d9a0cc3-5bae-45b1-8d1f-d684f6a4094e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a users selects Long-Term Surface Parking
+  uid: 16f3a5fc-9922-4877-8bdd-ede8ff3db8ea
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
